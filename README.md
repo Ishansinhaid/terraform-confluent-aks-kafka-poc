@@ -95,11 +95,11 @@
 ## 📁 Project Structure
 
 ```
-confluent-kafka-terraform/
+
 ├── main.tf                    # Root — wires modules together, defines providers
 ├── variables.tf               # All 21 input variables
 ├── outputs.tf                 # 8 outputs: env ID, cluster ID, API key, AKS details
-├── terraform.tfvars           # YOUR credentials (⚠️ gitignored — never commit)
+├── terraform.tfvars           # YOUR credentials 
 ├── .gitignore                 # Excludes tfstate, tfvars, .terraform/
 │
 ├── modules/
